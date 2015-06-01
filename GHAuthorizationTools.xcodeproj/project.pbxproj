@@ -14,6 +14,7 @@
 		CBD72ECC1B1BE6F7000B886D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBD72ECB1B1BE6F7000B886D /* Images.xcassets */; };
 		CBD72ECF1B1BE6F7000B886D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBD72ECD1B1BE6F7000B886D /* LaunchScreen.xib */; };
 		CBD72EDB1B1BE6F8000B886D /* GHAuthorizationToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD72EDA1B1BE6F8000B886D /* GHAuthorizationToolsTests.m */; };
+		CBD72EE61B1BE70A000B886D /* GHAuthorizationTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD72EE51B1BE70A000B886D /* GHAuthorizationTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		CBD72ED41B1BE6F8000B886D /* GHAuthorizationToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GHAuthorizationToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBD72ED91B1BE6F8000B886D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBD72EDA1B1BE6F8000B886D /* GHAuthorizationToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHAuthorizationToolsTests.m; sourceTree = "<group>"; };
+		CBD72EE41B1BE70A000B886D /* GHAuthorizationTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHAuthorizationTools.h; sourceTree = "<group>"; };
+		CBD72EE51B1BE70A000B886D /* GHAuthorizationTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHAuthorizationTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		CBD72EBD1B1BE6F7000B886D /* GHAuthorizationTools */ = {
 			isa = PBXGroup;
 			children = (
+				CBD72EE41B1BE70A000B886D /* GHAuthorizationTools.h */,
+				CBD72EE51B1BE70A000B886D /* GHAuthorizationTools.m */,
 				CBD72EC21B1BE6F7000B886D /* AppDelegate.h */,
 				CBD72EC31B1BE6F7000B886D /* AppDelegate.m */,
 				CBD72EC51B1BE6F7000B886D /* ViewController.h */,
@@ -221,6 +226,7 @@
 			files = (
 				CBD72EC71B1BE6F7000B886D /* ViewController.m in Sources */,
 				CBD72EC41B1BE6F7000B886D /* AppDelegate.m in Sources */,
+				CBD72EE61B1BE70A000B886D /* GHAuthorizationTools.m in Sources */,
 				CBD72EC11B1BE6F7000B886D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
